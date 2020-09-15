@@ -1,0 +1,145 @@
+===============================
+LogDev - Season 6
+===============================
+UPDATE 1
+- Fixado Red Dragon e Golden Dragon voando pelas cidades na  hora da invasão
+- Fixado Bug de Zen ao reparar itens durante o Trade, com o Bau aberto e ao vender itens no NPC
+- Fixado JoinServer (detalhes internos)
+- Alguns Fixs de segurança
+- Fixado /reset auto não sair quando acaba o plano vip
+- Fixado outras magias no /attack
+- Adicionado Alerta de Invasões
+- Adicionado Premiação de Coins por estar online!
+- Adicionado verificação de level para apagar personagem
+- Adicionado Select Char Animate com opção de ativação
+- Fix NPC Click
+- Adicionado Anti Flood System
+- Adicionado sistema multilinguagem
+- Adicionado créditos via dll
+- Upgrade CustomPack (até 60 unidades)
+- Fixado Velocidade da Skill Uppercut (RF)
+- Fixado tecla CTRL com multiplas contas
+- Adicionado premiação de coins no Master Reset (configurado por plano vip)
+- Adicionado premiação de coins no Reset (configurado por plano vip)
+- Fixado Kriss Crash Cliente
+- Fixado Custom Store Close
+- Fixado comando /readd
+- Organização de todo sistema SocketItem
+- Organização de todo sistema MasterSkillTree
+- Organização de todo sistema Ancient
+- Organização de todo sistema Harmony
+- Organização de todos os textos do servidor
+- Custom Ancient adicionado
+- Custom Mix adicionado
+- Custom Start Item adicionado
+- Custom Bow (100%)
+- Custom PostItem
+- Custom Zen e Coins no Inventário
+
+UPDATE 2
+- Fix Bug Visual rank user level + master level
+- Fix auto move from Icarus if dinorant/fenrir died
+- New Health Bar
+- Adicionado coluna de verificação PkMove em Move/MoveSummon.txt
+- Adicionado coluna de verificação PkMove em Move/Gate.txt
+- Adicionado opção de abrir NPC se for Pk ou não
+- Adicionado verificação no Chaos Castle (Party System)
+- Fix Master SkillTree Dark Horse Defense
+- Fix Segurança (sistema de auto flood)
+- Custom Pet adicionado
+- Sistema de diferença de atributos via Master Reset (Damage/Defense)
+- Update CustomStartItem (v2)
+- Master Reset ItemBag (Premiação em Item)
+
+UPDATE 3
+- Adicionado diferença de level na Party (Party Level Gap) -FEITO
+- Custom Cape Moviment -FEITO
+- Add +5 Plugins (getmaininfo) - FEITO
+- Add LimitTradeZen (GetMainInfo - (1 = 999,999,999, 0 = 99,999,999)) - FEITO
+- Fix RF /attack - FEITO
+- Fix Pet teleport / Ring Monsters - FEITO
+- Ativação Close Game Delay
+- Fix Rank Titles - FEITO
+- Fix Invasion Dragon Red - FEITO
+- Fix Invasion Golden Dragon - FEITO
+- Fix TvT event - FEITO
+- Add Comando /addpk - FEITO
+- PKFree por Coordenada - FEITO
+- Summon Scroll (S4/S6) - FEITO
+- Add Camera 3D Menu - FEITO
+
+UPDATE 4
+- Attack Speed Fix - FEITO!
+- Fix Dragons Flying em Atlans - FEITO!
+- Fix Dragon Flying (Golden Dragons) não somem após finalizar a invasão - FEITO
+- Updated Custom Pet - FEITO
+- Mover com montaria ao ir para Icarus - FEITO
+- Fixado CustomPet Move Icarus ao usar montarias - FEITO
+- Fixado CustomPet Move Atlans ao usar montarias - FEITO
+- Custom PetEffectStatic - FEITO
+- Custom Item Position - FEITO
+- Verificação Pk Trade - FEITO
+- Custom Monster - FEITO
+- Custom NPC - FEITO
+- Desativar comando /offpvp via Level - FEITO
+- Desativar comando /attack ao acabar vip - FEITO
+- Fixado CustomSelectChar Animation para CustomPet - FEITO
+- Custom StartItem e Buff - FEITO
+- Custom Claws - FEITO
+
+UPDATE 5 - EM DESENVOLVIMENTO
+- Custom Lucky Whell
+- Custom item stats 
+- OnlineRewardOfflineSystems - Ganhar moeda offline ou não
+- EnableExplosionEffect - Efeito de explosão ao morrer
+- Desativação automática de comandos ao acabar plano de uso
+
+
+
+
+
+
+
+--PARA SERVIDORES QUE IRÃO ATUALIZAR
+
+Message_eng.txt
+38      "PK characters are prohibited from using NPCs!"
+39      "PK characters are prohibited from moving to that location."                                                                                                   
+40      "You need to undo the party to go to Chaos Castle!" 
+
+Message_por.txt
+38        "Personagens PK são probidos de usar os NPCs!"
+39        "Personagens PK são probidos de mover para esse local."
+40        "Precisa desfazer a party para ir ao Chaos Castle!"
+
+Message_spn.txt
+38        "Se prohíbe a los personajes PK usar NPC!"
+39        "Los personajes PK tienen prohibido moverse a esa ubicación."
+40        "Necesitas deshacer la fiesta para ir al Chaos Castle!"
+
+Repassar arquivos do muserver: MoveSummon e Gate.txt
+
+
+
+
+
+
+// OBSERVAÇÕES
+1 SET POR CONTA
+
+
+
+---QUERYS
+
+CUSTOM GIFT
+USE MuOnlineS6
+GO
+alter table [Character] add [StartItem] int not null default(0)
+
+
+Depois
+- Organizar socketitem.bmd de acordo com socketitem.txt
+- Organizar MasterSkillTree
+- Organizar Ancient
+- Organizar Harmony option
+- Organizar tradução (textos, skills e etc)

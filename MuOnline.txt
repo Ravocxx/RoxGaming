@@ -1,7 +1,7 @@
-===============================
-LogDev - Season 6
-===============================
-UPDATE 1
+=====================================================================================
+				Changelog - RoxGaming Emulador
+=====================================================================================
+UPDATE 1 - 25/05/2020
 - Fixado Red Dragon e Golden Dragon voando pelas cidades na  hora da invasão
 - Fixado Bug de Zen ao reparar itens durante o Trade, com o Bau aberto e ao vender itens no NPC
 - Fixado JoinServer (detalhes internos)
@@ -36,7 +36,7 @@ UPDATE 1
 - Custom PostItem
 - Custom Zen e Coins no Inventário
 
-UPDATE 2
+UPDATE 2 - 29/06/2020
 - Fix Bug Visual rank user level + master level
 - Fix auto move from Icarus if dinorant/fenrir died
 - New Health Bar
@@ -50,39 +50,79 @@ UPDATE 2
 - Sistema de diferença de atributos via Master Reset (Damage/Defense)
 - Update CustomStartItem (v2)
 - Master Reset ItemBag (Premiação em Item)
+- Posição de Menus de Tecla D refeito (S0/S2)
+- Desativação de Skill Power Slash e Twisting Slash (S0)
 
-UPDATE 3
-- Adicionado diferença de level na Party (Party Level Gap) -FEITO
-- Custom Cape Moviment -FEITO
-- Add +5 Plugins (getmaininfo) - FEITO
-- Add LimitTradeZen (GetMainInfo - (1 = 999,999,999, 0 = 99,999,999)) - FEITO
+UPDATE 3 - 18/08/2020
+- Adicionado diferença de level na Party (Party Level Gap)
+- Custom Cape Moviment
+- Add +5 Plugins (getmaininfo)
+- Add LimitTradeZen (GetMainInfo - (1 = 999,999,999, 0 = 99,999,999))
 - Fix RF /attack - FEITO
-- Fix Pet teleport / Ring Monsters - FEITO
+- Fix Pet teleport / Ring Monsters
 - Ativação Close Game Delay
-- Fix Rank Titles - FEITO
-- Fix Invasion Dragon Red - FEITO
-- Fix Invasion Golden Dragon - FEITO
-- Fix TvT event - FEITO
-- Add Comando /addpk - FEITO
-- PKFree por Coordenada - FEITO
-- Summon Scroll (S4/S6) - FEITO
-- Add Camera 3D Menu - FEITO
+- Fix Rank Titles
+- Fix Invasion Dragon Red
+- Fix Invasion Golden Dragon
+- Fix TvT event
+- Add Comando /addpk
+- PKFree por Coordenada
+- Summon Scroll
+- Add Camera 3D Menu
+- Refeito Party Bar (S0/S2)
+- Refeito Guild War Position (S0/S2)
 
-UPDATE 4
-- Attack Speed Fix - FEITO!
-- Fix Dragons Flying em Atlans - FEITO!
-- Fix Dragon Flying (Golden Dragons) não somem após finalizar a invasão - FEITO
-- Updated Custom Pet - FEITO
-- Mover com montaria ao ir para Icarus - FEITO
-- Fixado CustomPet Move Icarus ao usar montarias - FEITO
-- Fixado CustomPet Move Atlans ao usar montarias - FEITO
-- Custom PetEffectStatic - FEITO
-- Custom Item Position - FEITO
-- Verificação Pk Trade - FEITO
-- Custom Monster - FEITO
-- Custom NPC - FEITO
-- Desativar comando /offpvp via Level - FEITO
-- Desativar comando /attack ao acabar vip - FEITO
-- Fixado CustomSelectChar Animation para CustomPet - FEITO
-- Custom StartItem e Buff - FEITO
-- Custom Claws - FEITO
+UPDATE 4 - 18/09/2020
+- Attack Speed Fix
+- Fix Dragons Flying em Atlans
+- Fix Dragon Flying (Golden Dragons) não somem após finalizar a invasão
+- Updated Custom Pet
+- Mover com montaria ao ir para Icarus
+- Fixado CustomPet Move Icarus ao usar montarias
+- Fixado CustomPet Move Atlans ao usar montarias
+- Fixado Dark Raven Review
+- Nova estrutura para Item SetOption (Ancients)
+- Custom PetEffectStatic
+- Custom Item Position
+- Verificação Pk Trade
+- Custom Monster
+- Custom NPC
+- Desativar comando /offpvp via Level
+- Desativar comando /attack ao acabar vip
+- Fixado CustomSelectChar Animation para CustomPet
+- Custom StartItem e Buff
+- Custom Claws (S6)
+- Refeito estrutura do ChatBox para downgrade (S0/S2)
+- Desativado SD - Lado GameServer (S0)
+- Desativado Key D (Menu Window) (S0)
+- Desativado Key M (Move Window) (S0)
+- Desativado Key S (Personal Shop) (S0)
+
+UPDATE 5 - 02/01/2021
+- EventItemBag Update (Item Bag Drop Inventory )
+- New ItolToolTip S15
+- Custom Jewel Bank
+- Custom Painel Switch Server
+- Custom Select Char 360º
+- Refeito estrutura de gates do Team vs Team (TVT Event)
+- AntiLag System (F6 Key)
+- MiniMap System (F7 Key)
+- FullTab Locomotion System
+- Fix Team vs Team (TVT Event) GS Crash
+- Fix dupe in trade
+- Fix chaos machine during trade because dupe
+- Fix PartySpecialExperienceRate
+- Fix visualização de skill de outros players na tela
+- Fix Set item drop rate
+- Fix Kalima ticket gate level
+- Fix Party request when dying
+- Fix Trade request when dying
+- Fix Pets ao mover para mapas
+- Fix RankUser view in the game
+- Fix dupe in Switch Server
+- Refeito Master Reset Gate line (Index 348 - Gate.txt)
+- Fix Animation Pets Skills
+- Menu Custom Key (O Key) (S0/S2)
+- New Downgrade Options Chat System + Party HP Bar (S0/S2)
+- New Select Server (S0)
+- Disable Key X (Cash Shop) (S0)
